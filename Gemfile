@@ -74,5 +74,5 @@ end
 group :test do
   gem 'capybara'
   gem 'cuprite'
-  gem 'webmock'
+  gem 'webmock', '>= 3.25.0'
 end
