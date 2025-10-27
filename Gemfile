@@ -13,7 +13,7 @@ gem 'cancancan'
 gem 'csv'
 gem 'csv-safe'
 gem 'devise'
-gem 'devise-two-factor'
+gem 'devise-two-factor', '>= 6.2.0'
 gem 'dotenv', require: false
 gem 'email_typo'
 gem 'faraday'
