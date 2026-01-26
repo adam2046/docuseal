@@ -12,7 +12,7 @@ gem 'bootsnap', require: false
 gem 'cancancan'
 gem 'csv'
 gem 'csv-safe'
-gem 'devise'
+gem 'devise', '>= 5.0.0'
 gem 'devise-two-factor'
 gem 'dotenv', require: false
 gem 'email_typo'
