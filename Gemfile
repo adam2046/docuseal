@@ -68,7 +68,7 @@ group :development do
   gem 'brakeman', require: false
   gem 'foreman', require: false
   gem 'letter_opener_web'
-  gem 'web-console'
+  gem 'web-console', '>= 4.3.0'
 end
 
 group :test do
