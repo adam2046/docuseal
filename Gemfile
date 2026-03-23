@@ -12,8 +12,8 @@ gem 'bootsnap', require: false
 gem 'cancancan'
 gem 'csv'
 gem 'csv-safe'
-gem 'devise'
-gem 'devise-two-factor'
+gem 'devise', '>= 5.0.3'
+gem 'devise-two-factor', '>= 6.4.0'
 gem 'dotenv', require: false
 gem 'email_typo'
 gem 'faraday'
