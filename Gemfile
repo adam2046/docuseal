@@ -29,7 +29,7 @@ gem 'pagy'
 gem 'pg', require: false
 gem 'premailer-rails'
 gem 'pretender'
-gem 'puma', require: false
+gem 'puma', '>= 7.2.1', require: false
 gem 'rack'
 gem 'rails'
 gem 'rails_autolink'
