@@ -12,7 +12,7 @@ gem 'bootsnap', require: false
 gem 'cancancan'
 gem 'csv'
 gem 'csv-safe'
-gem 'devise'
+gem 'devise', '>= 5.0.0'
 gem 'devise-two-factor'
 gem 'dotenv', require: false
 gem 'email_typo'
@@ -28,37 +28,37 @@ gem 'oj'
 gem 'pagy'
 gem 'pg', require: false
 gem 'premailer-rails'
-gem 'pretender'
+gem 'pretender', '>= 0.6.0'
 gem 'puma', require: false
 gem 'rack'
 gem 'rails', '>= 8.0.3'
 gem 'rails_autolink'
-gem 'rails-i18n'
+gem 'rails-i18n', '>= 8.0.2'
 gem 'rotp'
 gem 'rouge', require: false
 gem 'rqrcode'
 gem 'ruby-vips'
 gem 'rubyXL'
-gem 'shakapacker'
+gem 'shakapacker', '>= 8.1.0'
 gem 'sidekiq'
 gem 'sqlite3', require: false
-gem 'strip_attributes'
-gem 'turbo-rails'
-gem 'twitter_cldr', require: false
-gem 'tzinfo-data'
+gem 'strip_attributes', '>= 2.0.0'
+gem 'turbo-rails', '>= 2.0.12'
+gem 'twitter_cldr', '>= 6.13.0', require: false
+gem 'tzinfo-data', '>= 1.2025.1'
 
 group :development, :test do
-  gem 'better_html'
-  gem 'bullet'
+  gem 'better_html', '>= 2.2.0'
+  gem 'bullet', '>= 8.0.1'
   gem 'debug'
-  gem 'erb_lint', require: false
-  gem 'factory_bot_rails'
-  gem 'faker'
+  gem 'erb_lint', '>= 0.8.0', require: false
+  gem 'factory_bot_rails', '>= 6.5.0'
+  gem 'faker', '>= 3.5.2'
   gem 'pry-rails'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 7.1.1'
   gem 'rubocop', require: false
   gem 'rubocop-performance', require: false
-  gem 'rubocop-rails', require: false
+  gem 'rubocop-rails', '>= 2.28.0', require: false
   gem 'rubocop-rspec', require: false
   gem 'simplecov', require: false
 end
@@ -68,11 +68,11 @@ group :development do
   gem 'brakeman', require: false
   gem 'foreman', require: false
   gem 'letter_opener_web'
-  gem 'web-console'
+  gem 'web-console', '>= 4.3.0'
 end
 
 group :test do
   gem 'capybara'
-  gem 'cuprite'
+  gem 'cuprite', '>= 0.16'
   gem 'webmock'
 end
