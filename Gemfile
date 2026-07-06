@@ -8,7 +8,7 @@ gem 'arabic-letter-connector', require: 'arabic-letter-connector/logic'
 gem 'aws-sdk-s3', require: false
 gem 'aws-sdk-secretsmanager', require: false
 gem 'azure-storage-blob', require: false
-gem 'bootsnap', require: false
+gem 'bootsnap', '>= 1.18.5', require: false
 gem 'cancancan'
 gem 'csv'
 gem 'csv-safe'

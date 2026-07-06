@@ -118,7 +118,7 @@ GEM
       smart_properties
     bigdecimal (4.1.2)
     bindex (0.8.1)
-    bootsnap (1.18.4)
+    bootsnap (1.24.6)
       msgpack (~> 1.2)
     brakeman (7.0.0)
       racc
@@ -332,7 +332,7 @@ GEM
     minitest (6.0.6)
       drb (~> 2.0)
       prism (~> 1.5)
-    msgpack (1.7.5)
+    msgpack (1.8.3)
     multi_json (1.15.0)
     multipart-post (2.4.1)
     mutex_m (0.3.0)
@@ -618,7 +618,7 @@ DEPENDENCIES
   aws-sdk-secretsmanager
   azure-storage-blob
   better_html
-  bootsnap
+  bootsnap (>= 1.18.5)
   brakeman
   bullet
   cancancan
