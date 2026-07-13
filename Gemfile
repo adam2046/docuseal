@@ -22,7 +22,7 @@ gem 'google-cloud-storage', require: false
 gem 'hexapdf'
 gem 'image_processing'
 gem 'jwt'
-gem 'lograge'
+gem 'lograge', '>= 0.15.0'
 gem 'mysql2', require: false
 gem 'oj'
 gem 'pagy'
@@ -73,6 +73,6 @@ end
 
 group :test do
   gem 'capybara'
-  gem 'cuprite'
+  gem 'cuprite', '>= 0.16'
   gem 'webmock'
 end
