@@ -31,7 +31,7 @@ gem 'premailer-rails'
 gem 'pretender'
 gem 'puma', require: false
 gem 'rack'
-gem 'rails', '>= 8.0.3'
+gem 'rails', '>= 8.1.3.1'
 gem 'rails_autolink'
 gem 'rails-i18n'
 gem 'rotp'
