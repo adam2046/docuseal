@@ -38,7 +38,7 @@ gem 'rotp'
 gem 'rouge', require: false
 gem 'rqrcode'
 gem 'ruby-vips'
-gem 'rubyXL'
+gem 'rubyXL', '>= 3.4.35'
 gem 'shakapacker'
 gem 'sidekiq'
 gem 'sqlite3', require: false
